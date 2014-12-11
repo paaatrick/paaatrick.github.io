@@ -2,6 +2,7 @@
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: auto 200px;
   position: relative;
   margin-bottom: 20px;
 }
