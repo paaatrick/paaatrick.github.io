@@ -1,0 +1,1 @@
+{"errors":[{"message":"Field \"cover\" must not have a selection since type \"String\" has no subfields.","locations":[{"line":24,"column":17}]}],"pageContext":{"isCreatedByStatefulCreatePages":true}}
