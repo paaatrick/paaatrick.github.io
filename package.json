@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "serve": "gatsby serve"
