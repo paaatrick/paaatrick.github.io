@@ -9,7 +9,7 @@ import About from '../components/About'
 
 import 'normalize.css'
 
-const IndexPage = ({data}) => {
+const IndexPage = () => {
 
   return (
     <div sx={{fontFamily: 'body'}}>
