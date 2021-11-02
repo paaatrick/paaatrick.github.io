@@ -6,13 +6,12 @@ import ProjectsGrid from '../components/ProjectsGrid'
 import PaintingsGrid from '../components/PaintingsGrid'
 import Header from '../components/Header'
 import About from '../components/About'
-
-import 'normalize.css'
+import Page from '../components/Page'
 
 const IndexPage = () => {
 
   return (
-    <div sx={{fontFamily: 'body'}}>
+    <Page>
       <SEO />
 
       <Header />
@@ -28,7 +27,7 @@ const IndexPage = () => {
       <Section bg='#DABB9C' title='About' id='about'>
         <About />
       </Section>
-    </div>
+    </Page>
   )
 }
 

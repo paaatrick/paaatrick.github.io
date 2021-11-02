@@ -43,7 +43,7 @@ const PaintingModal = ({painting, onClose}) => {
   return (
     <ReactModal isOpen={!!painting} onRequestClose={onClose} style={modalStyle}>
       {painting && <React.Fragment>
-        <Img fluid={painting.cover.childImageSharp.fluid} style={imageWrapperStyle} imgStyle={imageStyle} />
+        <Img fluid={painting.image.childImageSharp.fluid} style={imageWrapperStyle} imgStyle={imageStyle} />
         <ItemDescription title={painting.title} description={painting.medium} dark />
       </React.Fragment>}
     </ReactModal>

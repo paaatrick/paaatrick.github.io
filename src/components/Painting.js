@@ -34,7 +34,7 @@ const PaintingImage = props => (
 const Painting = ({painting, onClick}) => {
   return (
     <PaintingButton onClick={onClick}>
-      <PaintingImage fluid={painting.cover.childImageSharp.fluid} />
+      <PaintingImage fluid={painting.image.childImageSharp.fluid} />
     </PaintingButton>
   )
 }

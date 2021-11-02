@@ -11,20 +11,17 @@ const PaintingsGrid = () => {
   const [selectedPainting, setSelectedPainting] = useState(null);
   const data = useStaticQuery(graphql`
     query PaintingsGridQuery {
-      paintings: allMarkdownRemark(
-        filter: { frontmatter: { category: { eq: "painting" } } },
-        sort: { order: ASC, fields: [frontmatter___date] }
+      paintings: allPaintingsJson(
+        sort: { order: ASC, fields: [date] }
       ) {
         edges {
           node {
-            frontmatter {
-              title
-              medium
-              cover {
-                childImageSharp {
-                  fluid(maxWidth: 1000, quality: 95) {
-                    ...GatsbyImageSharpFluid
-                  }
+            title
+            medium
+            image {
+              childImageSharp {
+                fluid(maxWidth: 1000, quality: 95) {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
@@ -37,10 +34,10 @@ const PaintingsGrid = () => {
   return (
     <Grid>
       {data.paintings.edges.map(painting => (
-        <GridItem key={painting.node.frontmatter.title} widths={['50%', '50%', '25%']}>
+        <GridItem key={painting.node.title} widths={['50%', '50%', '25%']}>
           <Painting 
-            painting={painting.node.frontmatter} 
-            onClick={() => setSelectedPainting(painting.node.frontmatter)} 
+            painting={painting.node} 
+            onClick={() => setSelectedPainting(painting.node)} 
           />
         </GridItem>
       ))}
