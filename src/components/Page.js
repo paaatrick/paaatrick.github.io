@@ -12,7 +12,7 @@ const Page = props => (
             lineHeight: 'body',
             color: 'text',
             '& a': {
-                color: 'inherit',
+                color: 'accentDark',
                 textDecoration: 'none',
             }
         }}

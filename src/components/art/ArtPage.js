@@ -21,6 +21,9 @@ const NavBar = props => (
             boxSizing: 'border-box',
             backgroundColor: 'white',
             zIndex: 2,
+            '& a': {
+                color: 'inherit'
+            }
         }}
     />
 )

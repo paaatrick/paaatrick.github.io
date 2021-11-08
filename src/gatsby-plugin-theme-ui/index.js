@@ -4,6 +4,7 @@ export default {
         textLight: '#b0b0b0',
         heading: '#070403',
         accent: '#FF8460',
+        accentDark: '#bd380f',
         modalOverlay: 'rgba(0, 0, 0, 0.8)',
         bgLight: 'rgba(255, 255, 255, 0.9)',
         bgDark: 'rgba(0, 0, 0, 0.9)',
