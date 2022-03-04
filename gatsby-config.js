@@ -6,7 +6,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-react-helmet',
-    'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
@@ -22,6 +21,8 @@ module.exports = {
         name: 'images',
       },
     },
+    'gatsby-transformer-sharp',
+    'gatsby-transformer-yaml',
     {
       resolve: "gatsby-transformer-remark",
       options: {

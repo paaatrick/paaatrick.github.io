@@ -1,9 +1,11 @@
 export default {
+    breakpoints: ['576px', '768px', '992px', '1200px'],
     colors: {
         text: '#333333',
         textLight: '#b0b0b0',
         heading: '#070403',
         accent: '#FF8460',
+        accentDark: '#bd380f',
         modalOverlay: 'rgba(0, 0, 0, 0.8)',
         bgLight: 'rgba(255, 255, 255, 0.9)',
         bgDark: 'rgba(0, 0, 0, 0.9)',
@@ -24,6 +26,10 @@ export default {
     },
     fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 72],
     space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
+    sizes: {
+        sideBar: 300,
+        prose: '66ch',
+    },
     radii: [0, 4],
     shadows: [
         'none',
