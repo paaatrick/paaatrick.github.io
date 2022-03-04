@@ -33,7 +33,8 @@ const Content = props => (
         {...props}
         sx={{
             marginLeft: theme => ['0', theme.sizes.sideBar],
-            padding: [3, 5],
+            paddingY: [3, 5],
+            paddingX: [3, 4, 5],
         }}
     />
 )
@@ -83,7 +84,7 @@ const ArtPage = ({children}) => {
                 <Name>
                     <Link to='/art'>Patrick Kalita</Link>
                     <MenuButton onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? '▲' : '▼'}
+                        {menuOpen ? '⏶' : '⏷'}
                     </MenuButton>
                 </Name>
                 <Menu open={menuOpen}>

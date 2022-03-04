@@ -27,7 +27,7 @@ const ArtAbout = () => {
                 <p>
                     My compositions utilize the precise drawing techniques of ancient Greek geometry, 
                     Islamic geometric design, and technical drafting. However the end result is bold, playful, 
-                    and occasionally disorienting in the manner of Op Art.
+                    and occasionally disorienting.
                 </p>  
             </Prose>  
         </ArtPage>

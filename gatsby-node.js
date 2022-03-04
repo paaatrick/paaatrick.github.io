@@ -9,7 +9,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const queryResults = await graphql(`
     query AllPaintings {
-      paintings: allPaintingsJson(sort: {order: ASC, fields: [date]}) {
+      paintings: allPaintingsYaml(sort: {order: ASC, fields: [date]}) {
         edges {
           node {
             id

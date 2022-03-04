@@ -12,9 +12,9 @@ const Page = props => (
             lineHeight: 'body',
             color: 'text',
             '& a': {
-                color: 'accentDark',
                 textDecoration: 'none',
-            }
+            },
+            minHeight: '100vh'
         }}
     />
 )

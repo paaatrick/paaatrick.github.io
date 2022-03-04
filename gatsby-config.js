@@ -22,7 +22,7 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
-    'gatsby-transformer-json',
+    'gatsby-transformer-yaml',
     {
       resolve: "gatsby-transformer-remark",
       options: {

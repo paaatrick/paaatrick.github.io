@@ -1,4 +1,5 @@
 export default {
+    breakpoints: ['576px', '768px', '992px', '1200px'],
     colors: {
         text: '#333333',
         textLight: '#b0b0b0',

@@ -11,8 +11,9 @@ const PaintingsGrid = () => {
   const [selectedPainting, setSelectedPainting] = useState(null);
   const data = useStaticQuery(graphql`
     query PaintingsGridQuery {
-      paintings: allPaintingsJson(
-        sort: { order: ASC, fields: [date] }
+      paintings: allPaintingsYaml(
+        sort: { order: ASC, fields: [date] },
+        limit: 7
       ) {
         edges {
           node {
@@ -41,6 +42,9 @@ const PaintingsGrid = () => {
           />
         </GridItem>
       ))}
+      <GridItem widths={['50%', '50%', '25%']} sx={{fontSize: 6, fontFamily: 'heading', textAlign: 'center'}}>
+        <a href='/art' sx={{color: 'text'}}>More ➯</a>
+      </GridItem>
       <PaintingModal painting={selectedPainting} onClose={() => setSelectedPainting(null)} />
     </Grid>
   )

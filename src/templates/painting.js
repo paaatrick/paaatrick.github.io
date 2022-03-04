@@ -11,18 +11,8 @@ const Container = props => (
       display: 'flex',
       flexDirection: 'column',
       maxHeight: 'calc(100vh - 128px)',
-      maxWidth: '1200px'
-    }}
-  />
-)
-
-const Close = props => (
-  <div
-    {...props}
-    sx={{
-      fontSize: 6,
-      display: 'flex',
-      justifyContent: 'flex-end',
+      maxWidth: '1000px',
+      margin: '0 auto',
     }}
   />
 )
@@ -31,8 +21,7 @@ const Details = props => (
   <div
     {...props}
     sx={{
-      fontWeight: '700',
-      fontSize: 0,
+      fontSize: 1,
     }}
   />
 )
@@ -41,7 +30,7 @@ const PrevNext = props => (
   <div 
     {...props}
     sx={{
-      fontSize: 0,
+      fontSize: 1,
       color: 'text'
     }}
   />
@@ -57,18 +46,17 @@ const Painting = ({data: { painting }, pageContext}) => {
   return (
     <ArtPage>
       <Container>
-        <Close><Link to='/art/paintings'>&times;</Link></Close>
         <Img 
           fluid={painting.image.childImageSharp.fluid} 
           imgStyle={{objectFit: 'contain'}} 
-          style={{minHeight: '300px'}}
+          sx={{marginBottom: 2, minHeight: '300px'}}
         />
         <Details>
-          <div>{painting.title}</div>
+          <div sx={{fontWeight: 'bold'}}>{painting.title}</div>
           <div>
             {painting.medium}
             , {new Date(painting.date).getFullYear()}
-            , {painting.width} &times; {painting.height}
+            , {painting.width} in &times; {painting.height} in
           </div>
         </Details>
         <PrevNext>
@@ -81,7 +69,7 @@ const Painting = ({data: { painting }, pageContext}) => {
   
 export const query = graphql`
   query($id: String) {
-    painting: paintingsJson(id: { eq: $id }) {
+    painting: paintingsYaml(id: { eq: $id }) {
       id
       title
       medium
@@ -90,7 +78,7 @@ export const query = graphql`
       height
       image {
         childImageSharp {
-          fluid(maxWidth: 1200, quality: 95) {
+          fluid(maxWidth: 1000, quality: 95) {
             ...GatsbyImageSharpFluid
           }
         }
