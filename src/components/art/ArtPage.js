@@ -5,6 +5,8 @@ import { Link } from 'gatsby'
 import Page from '../Page'
 import SEO from '../Seo'
 import NavLink from './NavLink'
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const NavBar = props => (
     <div
@@ -58,7 +60,8 @@ const Menu = ({open, ...rest}) => (
     <div
         {...rest}
         sx={{
-            height: [open ? 'auto' : '0', 'auto'],
+            paddingTop: [4, '0'],
+            display: [open ? 'block' : 'none', 'block'],
             overflow: 'hidden',
         }}
     />
@@ -84,7 +87,7 @@ const ArtPage = ({children}) => {
                 <Name>
                     <Link to='/art'>Patrick Kalita</Link>
                     <MenuButton onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? '⏶' : '⏷'}
+                        {menuOpen ? <FontAwesomeIcon icon={faTimes}/> : <FontAwesomeIcon icon={faBars} />}
                     </MenuButton>
                 </Name>
                 <Menu open={menuOpen}>
