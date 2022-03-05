@@ -73,7 +73,9 @@ const MenuButton = props => (
         sx={{
             background: 'transparent',
             border: 'none',
-            display: ['block', 'none']
+            display: ['block', 'none'],
+            margin: '0',
+            padding: 1,
         }}
     />
 )
@@ -87,7 +89,10 @@ const ArtPage = ({children}) => {
                 <Name>
                     <Link to='/art'>Patrick Kalita</Link>
                     <MenuButton onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? <FontAwesomeIcon icon={faTimes}/> : <FontAwesomeIcon icon={faBars} />}
+                        {menuOpen ? 
+                            <FontAwesomeIcon icon={faTimes} sx={{color: 'heading'}} /> : 
+                            <FontAwesomeIcon icon={faBars} sx={{color: 'heading'}} />
+                        }
                     </MenuButton>
                 </Name>
                 <Menu open={menuOpen}>
