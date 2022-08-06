@@ -33,6 +33,7 @@ const ArtCV = () => {
         <ArtPage>
             <Section>
                 <Heading>Group Exhibitions</Heading>
+                <Item year={2022} title='Home Team: World Stage' location='Maude Kerns Art Center, Eugene OR' />
                 <Item year={2020} title='Spring Exhibition' location='Emerald Art Center, Springfield OR' />
                 <Item year={2020} title='Zone 4 All' location='New Zone Gallery, Eugene OR' />
             </Section>
