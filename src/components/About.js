@@ -68,12 +68,11 @@ const About = () => {
       <PortraitImage fixed={data.portrait.childImageSharp.fixed} />
       <div>
         <AboutText>
-          Hello sharks, my name is Patrick. I work as a software engineer at the 
-          University of Oregon supporting genetics research. Otherwise I'm painting,
-          riding bikes or working on them.
+          Hello sharks, my name is Patrick. I work as a software engineer supporting life science 
+          research. Otherwise I'm painting, riding bikes or working on them.
         </AboutText>
         <div>
-          <a href="mailto:patrick.kalita@gmail.com"><SocialIcon icon={faEnvelope} /></a>
+          <a href="mailto:hello@patrickkalita.com"><SocialIcon icon={faEnvelope} /></a>
           <a href="https://github.com/paaatrick"><SocialIcon icon={faGithub} /></a>
         </div>
       </div>

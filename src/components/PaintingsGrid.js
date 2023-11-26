@@ -12,7 +12,7 @@ const PaintingsGrid = () => {
   const data = useStaticQuery(graphql`
     query PaintingsGridQuery {
       paintings: allPaintingsYaml(
-        sort: { order: ASC, fields: [date] },
+        sort: { order: DESC, fields: [date] },
         limit: 7
       ) {
         edges {

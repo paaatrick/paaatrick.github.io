@@ -42,7 +42,7 @@ const PaintingThumbnails = ({ data }) => {
 export const pageQuery = graphql`
   query PaintingThumbnails {
     paintings: allPaintingsYaml(
-      sort: { order: ASC, fields: [date] }
+      sort: { order: DESC, fields: [date] }
       ) {
         edges {
           node {

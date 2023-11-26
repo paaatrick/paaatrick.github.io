@@ -110,12 +110,47 @@
   width: 24
   height: 18
 
-- title: L12a_869
+- title: 12a_869 Knot
   date: 2022-02-05
   image: ../images/DSC3358.jpg
   medium: Acrylic on panel
   width: 20
   height: 18
+
+- title: 11a_96 Knot
+  date: 2022-06-01
+  image: ../images/20221029_202147705.jpg
+  medium: Acrylic on panel
+  width: 21.25
+  height: 26.75
+
+- title: 8_13 Knot
+  date: 2022-11-16
+  image: ../images/20221117_010319581.jpg
+  medium: Acrylic on panel
+  width: 24
+  height: 24
+
+- title: 12-fold Green
+  date: 2023-06-19
+  image: ../images/20231126_200411942.jpg
+  medium: Acrylic on panel
+  width: 13.75
+  height: 8
+
+- title: 6-fold Blue-Yellow
+  date: 2023-08-11
+  image: ../images/20231125_190841616.jpg
+  medium: Acrylic on panel
+  width: 26.5
+  height: 22.75
+
+- title: 8-fold Orange
+  date: 2023-10-27
+  image: ../images/20231126_200537872.jpg
+  medium: Acrylic on panel
+  width: 15.75
+  height: 25
 
 # - title: White Rose
 #   date: 2006-04-01
