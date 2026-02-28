@@ -56,7 +56,7 @@ const Painting = ({data: { painting }, pageContext}) => {
           <div>
             {painting.medium}
             , {new Date(painting.date).getFullYear()}
-            , {painting.width} in &times; {painting.height} in
+            , {painting.width} &times; {painting.height}
           </div>
         </Details>
         <PrevNext>

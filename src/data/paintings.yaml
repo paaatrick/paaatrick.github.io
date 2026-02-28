@@ -2,155 +2,204 @@
   date: 2016-01-15
   image: ../images/DSC3299.jpg
   medium: Acrylic on canvas
-  width: 20
-  height: 16 
+  width: 20 in
+  height: 16 in
 
 - title: 5_1 Knot
   date: 2016-03-01
   image: ../images/DSC3251.jpg
   medium: Acrylic on canvas
-  width: 20
-  height: 16 
+  width: 20 in
+  height: 16 in
 
 - title: 5_2 Knot
   date: 2016-07-01
   image: ../images/DSC3268.jpg
   medium: Acrylic on canvas
-  width: 16
-  height: 20 
+  width: 16 in
+  height: 20 in
 
 - title: 7_1 Knot
   date: 2019-09-29
   image: ../images/DSC3376.jpg
   medium: Acrylic on canvas
-  width: 14
-  height: 14 
+  width: 14 in
+  height: 14 in
 
 - title: 7_2 Knot
   date: 2019-10-25
   image: ../images/DSC3383.jpg
   medium: Acrylic on canvas
-  width: 14
-  height: 14 
+  width: 14 in
+  height: 14 in
 
 - title: 7_3 Knot
   date: 2020-01-30
   image: ../images/DSC3371.jpg
   medium: Acrylic on panel
-  width: 12
-  height: 10 
+  width: 12 in
+  height: 10 in
 
 - title: L6a3 with Trefoils
   date: 2020-05-19
   image: ../images/DSC3292.jpg
   medium: Acrylic on panel
-  width: 18
-  height: 18
+  width: 18 in
+  height: 18 in
 
 - title: 7_6 Braid
   date: 2020-06-29
   image: ../images/DSC3234.jpg
   medium: Acrylic on canvas
-  width: 16
-  height: 20
+  width: 16 in
+  height: 20 in
 
 - title: L10a108
   date: 2020-09-16
   image: ../images/DSC3250.jpg
   medium: Acrylic on panel
-  width: 18
-  height: 18
+  width: 18 in
+  height: 18 in
 
 - title: L10a169
   date: 2020-11-11
   image: ../images/DSC3289.jpg
   medium: Acrylic on panel
-  width: 24
-  height: 30
+  width: 24 in
+  height: 30 in
 
 - title: 3-5-14
   date: 2021-01-10
   image: ../images/DSC3241.jpg
   medium: Acrylic on panel
-  width: 24
-  height: 17
+  width: 24 in
+  height: 17 in
 
 - title: 5 Component Braid
   date: 2021-06-16
   image: ../images/DSC3260.jpg
   medium: Acrylic on canvas
-  width: 20
-  height: 16
+  width: 20 in
+  height: 16 in
 
 - title: L8a9
   date: 2021-09-24
   image: ../images/DSC3272.jpg
   medium: Acrylic on canvas
-  width: 16
-  height: 20
+  width: 16 in
+  height: 20 in
 
 - title: 6_3 Knot (monochrome)
   date: 2021-10-20
   image: ../images/DSC3361.jpg
   medium: Acrylic on panel
-  width: 24
-  height: 24
+  width: 24 in
+  height: 24 in
 
 - title: 5_2 Knot (monochrome)
   date: 2021-11-24
   image: ../images/DSC3346.jpg
   medium: Acrylic on panel
-  width: 24
-  height: 24
+  width: 24 in
+  height: 24 in
 
 - title: 7_6 Knot
   date: 2022-01-10
   image: ../images/DSC3354.jpg
   medium: Acrylic on panel
-  width: 24
-  height: 18
+  width: 24 in
+  height: 18 in
 
 - title: 12a_869 Knot
   date: 2022-02-05
   image: ../images/DSC3358.jpg
   medium: Acrylic on panel
-  width: 20
-  height: 18
+  width: 20 in
+  height: 18 in
 
 - title: 11a_96 Knot
   date: 2022-06-01
   image: ../images/20221029_202147705.jpg
   medium: Acrylic on panel
-  width: 21.25
-  height: 26.75
+  width: 21.25 in
+  height: 26.75 in
 
 - title: 8_13 Knot
   date: 2022-11-16
   image: ../images/20221117_010319581.jpg
   medium: Acrylic on panel
-  width: 24
-  height: 24
+  width: 24 in
+  height: 24 in
 
 - title: 12-fold Green
   date: 2023-06-19
   image: ../images/20231126_200411942.jpg
   medium: Acrylic on panel
-  width: 13.75
-  height: 8
+  width: 13.75 in
+  height: 8 in
 
 - title: 6-fold Blue-Yellow
   date: 2023-08-11
   image: ../images/20231125_190841616.jpg
   medium: Acrylic on panel
-  width: 26.5
-  height: 22.75
+  width: 26.5 in
+  height: 22.75 in
 
 - title: 8-fold Orange
   date: 2023-10-27
   image: ../images/20231126_200537872.jpg
   medium: Acrylic on panel
-  width: 15.75
-  height: 25
+  width: 15.75 in
+  height: 25 in
+
+- title: Untitled (grey/pink)
+  date: 2024-03-01
+  image: ../images/00023.jpg
+  medium: Acrylic on panel
+  width: 18 in
+  height: 20.75 in
+
+- title: Untitled (lavendar/orage/yellow)
+  date: 2024-03-10
+  image: ../images/00024.jpg
+  medium: Acrylic on panel
+  width: 31 cm
+  height: 54.5 cm
+
+- title: Untitled (green/teal/pink)
+  date: 2024-05-07
+  image: ../images/00025.jpg
+  medium: Acrylic on panel
+  width: 8 in
+  height: 8 in
+
+- title: Untitled (grey-green)
+  date: 2024-11-24
+  image: ../images/00026.jpg
+  medium: Acrylic on panel
+  width: 62 cm
+  height: 62 cm
+
+- title: Untitled (orage/green)
+  date: 2025-03-15
+  image: ../images/00027.jpg
+  medium: Acrylic on panel
+  width: 18 in
+  height: 22.5 in
+
+- title: Zillij (pink/blue)
+  date: 2025-07-30
+  image: ../images/00028.jpg
+  medium: Acrylic on canvas
+  width: 14 in
+  height: 14 in
+
+- title: Untitled (green/pink)
+  date: 2026-01-26
+  image: ../images/00029.jpg
+  medium: Acrylic on panel
+  width: 51.5 cm
+  height: 51.5 cm
 
 # - title: White Rose
 #   date: 2006-04-01
